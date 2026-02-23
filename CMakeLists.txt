@@ -18,6 +18,11 @@ juce_generate_juce_header(DAIW)
 target_sources(DAIW PRIVATE
     src/Main.cpp
     src/MainComponent.cpp
+    src/Audio/AudioEngine.cpp
+    src/UI/LookAndFeel/DAIWLookAndFeel.cpp
+    src/UI/Components/LevelMeter.cpp
+    src/UI/SettingsWindow.cpp
+    src/UI/AudioSettingsPanel.cpp
 )
 
 # Include directories
