@@ -1,0 +1,44 @@
+# Build artifacts
+build/
+build-*/
+cmake-build-*/
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+DerivedData/
+
+# JUCE generated
+Builds/
+JuceLibraryCode/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+*.egg-info/
+.pytest_cache/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Secrets and local config
+.env
+.env.local
+config.json
+
+# Logs
+*.log
+
+# Compiled objects
+*.o
+*.obj
+*.a
+*.lib
